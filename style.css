@@ -1,0 +1,259 @@
+/*----------------------------------------------------------------------------------
+
+	Template Name: Elite Corporation
+	Template URL: none
+	Description: Organization
+	Author: Proshenjit Karmakar
+	Author URL: none
+	License:  
+	Version: 2022.0.1
+-----------------------------------------------------------------------------------
+
+	1. Typography
+	2. Header Area
+	3. Services Area
+	4. Feature Work Area
+	5. Latest Post Area
+	6. Get in Touch Area
+	7. Footer Area
+-----------------------------------------------------------------------------------*/
+
+
+/************** 1. Typography ************************/
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+a, 
+p,
+ul{
+	margin: 0;
+	text-decoration: none;
+}
+body{
+	margin:0; 
+	padding: 0;
+}
+/************ Email Phone ************/
+.email-phone{
+	padding: 10px 0;
+	color: #B29C52;
+	background-color: #f3f3f3;
+	text-align: right;
+}
+.email-phone .row .col-md-12 ul{
+	padding-right: 40px;
+}
+.email-phone .row .col-md-12 ul li a{
+	color: #B29C52;
+}
+
+
+/************ Header Area ************/
+.mynav{
+	background-color: white;
+
+}
+.mynav .row .col-md-2 img{
+	padding: 0 30px;
+}
+.mynav .menu ul li{
+	padding: 0 10px;
+}
+.mynav .menu ul li a{
+	color: black;
+	text-decoration: none;
+}
+.mynav .menu ul li a:hover{
+	color: #B29C52;
+	border-bottom: 2px solid #B29C52;
+}
+.carousel-caption h3{
+	font-size: 50px;
+	padding-bottom: 100px;
+}
+.overlay{
+	position: relative;
+}
+.overlay::after{
+	content:"";
+    clear: both;
+    display: block;
+
+    background-color: rgba(149, 103, 12, 0.4);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.carousel-inner ul li{
+	text-align: center;
+	padding-bottom: 30px;
+	padding-right: 10px;
+
+}
+.carousel-inner ul li a{
+	color: white;
+	font-size: 50px;
+	padding: 10px;
+}
+.carousel-inner ul li p{
+	font-size: 12px;
+	font-style: italic;
+}
+.content .row .col-md-3 a{
+	color: #B29C52;
+	border: 2px solid #B29C52;
+	padding: 10px 10px;
+	border-radius: 50%;
+	background-color: #f3f3f3;
+}
+
+.content .row .col-md-3 h4{
+	color: #B29C52;
+	padding-top: 20px;
+}
+.content .row .col-md-3 p{
+	color: black;
+	font-size: 12px;
+}
+
+.feature-work .contents{
+	text-align: center;
+	padding: 20px 300px;
+
+}
+.feature-work .contents h2{
+	color: #B29C52;
+}
+.feature-work .contents p{
+	font-size: 12px;
+	color: black;
+	padding: 20px 0;
+}
+
+.feature-work .feature-img{
+	text-align: center;
+}
+.latest-post .l-contents{
+	text-align: center;
+	padding: 20px 300px;
+}
+.latest-post .l-contents h2{
+	color: #B29C52;
+}
+.latest-post .l-contents p{
+	font-size: 12px;
+	color: black;
+	padding: 20px 0;
+}
+.latest-post .row{
+	padding: 0px 100px!important;
+}
+.latest-post .row .col-md-4 .card .card-body p{
+	font-size: 12px;
+}
+
+.get-in-touch .touch-contents{
+	text-align: center;
+	padding: 20px 300px;
+}
+.get-in-touch .touch-contents h2{
+	color: #B29C52;
+}
+.get-in-touch .touch-contents p{
+	color: black;
+	padding: 20px 0;
+}
+.get-in-touch .row{
+	padding: 20px 200px;
+}
+.get-in-touch .row .col-md-5{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 30px;
+	margin-bottom: 60px;
+}
+.get-in-touch .row .col-md-5 img{
+	width: 100%;
+}
+.get-in-touch .row .col-md-5 input{
+	width: 100%;
+	margin: 5px;
+	border: 2px solid rgb(248, 189, 189);
+	border-radius: 3px;
+	background-color: #F9EDD5;
+}
+.get-in-touch .row .col-md-5 textarea{
+	background-color: #F9EDD5;
+	width: 100%;
+	border: 2px solid rgb(248, 189, 189);
+	border-radius: 3px;
+	margin-left: 5px;
+}
+.get-in-touch .row .col-md-5 button{
+	background-color: #BEA44D;
+	border: none;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+.get-in-touch .row .col-md-5 .button{
+	text-align: right;
+}
+/*.get-in-touch .row .col-md-6{
+	box-shadow: inset 2px 2px 2px 2px;
+}*/
+
+
+.footer{
+	background-color: #F9EDD5;
+	padding: 50px;
+}
+.footer .row .col-md-5 a{
+	font-size: 15px;
+	color: #B29C52;
+	
+}
+.footer .row .col-md-5 .arrow-icon{
+	font-size: 8px;
+	color: white;
+	padding: 3px 5px;
+	border: 2px solid #B29C52;
+	border-radius: 50%;
+	background-color: #B29C52;
+}
+.footer .row .col-md-2 a{
+	font-size: 15px;
+	color: black;
+	text-decoration: none;
+}
+.footer .row .col-md-2 .con{
+	padding-top: 50px;
+}
+.footer .row .col-md-2 .icons{
+	font-size: 12px;
+}
+/* .footer .row .col-md-3 h4{
+	padding: ;
+} */
+.footer-last{
+	background-color: #BEA44D;
+}
+.footer-last .col-md-6 ul {
+	padding-left: 350px;
+	text-align: left;
+}
+.footer-last .col-md-6 ul li{
+	list-style: none;
+	float: left;
+	padding: 20px;
+}	
+.footer-last .row .col-md-6 p{
+	padding: 20px;
+}
+.footer-last .row .col-md-6 ul li a{
+	color: white;
+}
